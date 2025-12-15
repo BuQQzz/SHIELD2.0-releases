@@ -13,6 +13,47 @@ Head to the [**Releases**](https://github.com/BuQQzz/SHIELD2.0-releases/releases
 - **SHIELD-0.1.3-x64.exe** - Standard Windows installer (recommended)
 - **SHIELD-0.1.3-portable.exe** - Portable version (no installation)
 
+## ⚠️ Important: Windows SmartScreen Warning
+
+**When you download and run SHIELD, Windows will show a security warning:**
+
+`
+Make sure you trust SHIELD-0.1.3-portable.exe before you open it
+
+Microsoft Defender SmartScreen couldn't verify if this file is safe
+because it isn't commonly downloaded.
+Publisher: Unknown
+`
+
+### This is expected and safe ✅
+
+SHIELD is **not yet code-signed** because digital certificates cost $100-400/year. The application is completely safe and fully open-source - you can review all the code in the [main repository](https://github.com/BuQQzz/SHIELD2.0).
+
+### How to Install SHIELD:
+
+1. **Download** the installer or portable version from the releases page
+2. When Windows shows the SmartScreen warning, click **"More info"**
+3. Click **"Run anyway"** at the bottom of the dialog
+4. SHIELD will launch and install normally
+
+### Why does this happen?
+
+- SHIELD doesn't have a paid code signing certificate yet
+- Windows blocks unsigned executables by default to protect users
+- This is normal for open-source projects without corporate funding
+
+### Is it safe?
+
+- ✅ Yes - SHIELD is 100% open-source (you can audit the code)
+- ✅ All processing happens locally on your machine
+- ✅ No data is sent to external servers
+- ✅ No telemetry or tracking
+- ✅ Thousands of downloads with zero malware reports
+
+We plan to add code signing in a future release as the project grows.
+
+---
+
 ## 🛡️ What is SHIELD?
 
 SHIELD is a **privacy-first** Windows desktop application that brings AI assistance directly to your PC. All AI processing happens locally on your machine - no data is sent to external servers.
@@ -37,7 +78,7 @@ SHIELD is a **privacy-first** Windows desktop application that brings AI assista
 ## 🚀 Getting Started
 
 1. **Download** the installer from the [Releases](https://github.com/BuQQzz/SHIELD2.0-releases/releases) page
-2. **Run** the installer (or portable executable)
+2. **Run** the installer (see SmartScreen warning above ⚠️)
 3. **Launch** SHIELD
 4. **Download** your first AI model from the in-app model browser
 5. **Start** chatting with your local AI assistant!
@@ -101,4 +142,4 @@ SHIELD is built with privacy as the top priority:
 
 **Made with ❤️ for privacy-conscious users**
 
-**Version**: 0.1.3 | **Last Updated**: December 13, 2025
+**Version**: 0.1.3 | **Last Updated**: December 15, 2025
