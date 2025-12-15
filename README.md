@@ -1,6 +1,6 @@
-# SHIELD 2.0 - Official Releases
+# SHIELD - Official Releases
 
-Welcome to the official releases repository for **SHIELD 2.0** - a privacy-first, local AI chatbot for Windows with tool integration capabilities.
+Welcome to the official releases repository for **SHIELD** - a privacy-first, local AI chatbot for Windows with tool integration capabilities.
 
 ## 📥 Download
 
@@ -15,7 +15,7 @@ Head to the [**Releases**](https://github.com/BuQQzz/SHIELD2.0-releases/releases
 
 ## 🛡️ What is SHIELD?
 
-SHIELD 2.0 is a **privacy-first** Windows desktop application that brings AI assistance directly to your PC. All AI processing happens locally on your machine - no data is sent to external servers.
+SHIELD is a **privacy-first** Windows desktop application that brings AI assistance directly to your PC. All AI processing happens locally on your machine - no data is sent to external servers.
 
 ### Key Features
 
@@ -86,7 +86,7 @@ Found a bug or have a feature request? Please open an issue in this repository!
 
 ## 📜 License
 
-SHIELD 2.0 is released under the MIT License.
+SHIELD is released under the MIT License.
 
 ## 🔒 Privacy
 
